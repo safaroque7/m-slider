@@ -1,195 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form</title>
-    <link rel="stylesheet" href="css/flexslider.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="css/flexslider.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
+      <h1>Design 2</h1>
 
-        <h1> Design 1 </h1>
+      <!-- menu-start -->
 
-        <!-- menu-start -->
+      <div class="menu">
+        <span>
+          <a href="">home</a>
+          <a href="">about</a>
+          <a href="">product</a>
+        </span>
+        <a href="">login</a>
+      </div>
 
-        <div class="menu">
-            <span>
-                <a href="">home</a>
-                <a href="">about</a>
-                <a href="">product</a>
-            </span>
-            <a href="">login</a>
+      <!-- menu-end -->
+
+      <div class="slider">
+        <h3>Slider 1</h3>
+
+        <div class="flexslider fs1">
+          <ul class="slides">
+            <li>
+              <img src="images/images_(1).jpeg" />
+            </li>
+            <li>
+              <img src="images/images.jpeg" />
+            </li>
+            <li>
+              <img src="images/istockphoto-1198272365-612x612.jpg" />
+            </li>
+            <li>
+              <img src="images/sunset-1373171_1280.jpg" />
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="information-form">
+        <div class="fieldgroup">
+          <label for="">Name</label>
+
+          <input type="text" name="" id="" placeholder="Your name" />
         </div>
 
-        <!-- menu-end -->
+        <div class="fieldgroup">
+          <label for="">Address</label>
 
-
-
-        <div class="slider">
-            <h3>Slider 1</h3>
-            
-            <div class="flexslider fs1">
-                <ul class="slides">
-                <li>
-                    <img src="images/images_(1).jpeg" />
-                </li>
-                <li>
-                    <img src="images/images.jpeg" />
-                </li>
-                <li>
-                    <img src="images/istockphoto-1198272365-612x612.jpg" />
-                </li>
-                <li>
-                    <img src="images/sunset-1373171_1280.jpg" />
-                </li>
-                </ul>
-            </div>
-
-            <h3>Slider 2</h3>
-            
-            <div class="flexslider fs2">
-                <ul class="slides">
-                <li>
-                    <img src="images/images_(1).jpeg" />
-                </li>
-                <li>
-                    <img src="images/images.jpeg" />
-                </li>
-                <li>
-                    <img src="images/istockphoto-1198272365-612x612.jpg" />
-                </li>
-                <li>
-                    <img src="images/sunset-1373171_1280.jpg" />
-                </li>
-                </ul>
-            </div>
-
-            <h3>slider 3</h3>
-            <div class="flexslider" id="f1" style="direction:rtl">
-                <ul class="slides">
-                  <li>
-                    <img src="images/images_(1).jpeg" />
-                    <p class="flex-caption">Adventurer Cheesecake Brownie</p>
-                  </li>
-                  <li>
-                    <img src="images/images.jpeg" />
-                    <p class="flex-caption">Adventurer Lemon</p>
-                  </li>
-                  <li>
-                    <img src="images/istockphoto-1198272365-612x612.jpg" />
-                    <p class="flex-caption">Adventurer Donut</p>
-                  </li>
-                  <li>
-                    <img src="images/sunset-1373171_1280.jpg" />
-                    <p class="flex-caption">Adventurer Caramel</p>
-                  </li>
-                </ul>
-              </div>
-              
-
-
+          <input type="text" name="" id="" placeholder="Your address" />
         </div>
 
-        <!-- form-start -->
+        <div class="fieldgroup">
+          <label for="">Name of your company</label>
 
-        <form class="form-login">
-            <h3>Please login</h3>
-            <input type="email" name="" id="" placeholder="Your email" required>
-            <input type="password" name="" id="" placeholder=" Your passwaord" required>
+          <input type="text" name="" id="" placeholder="Company name " />
+        </div>
+        <div class="fieldgroup">
+          <label for="">Company's Address</label>
 
-            <div class="submit-button">
-                 <input type="submit" value="login">
-            </div>
-        </form>
-
-        <div class="information-form">
-
-            <div class="fieldgroup">
-                <label for="">Name</label>
-
-                <input type="text" name="" id="" placeholder="Your name">
-
-            </div>
-
-            <div class="fieldgroup">
-                <label for="">Address</label>
-
-                <input type="text" name="" id="" placeholder="Your address">
-
-            </div>
-
-            <div class="fieldgroup">
-                <label for="">Name of your company</label>
-
-                <input type="text" name="" id="" placeholder="Company name ">
-
-            </div>
-            <div class="fieldgroup">
-                <label for="">Company's Address</label>
-
-                <input type="text" name="" id="" placeholder="Address ">
-
-
-            </div>
-
-            <div class="fieldgroup">
-                <label for="">Position</label>
-                <select name="" id="">
-                    <option value="Manager">General Manager</option>
-                    <option value="Manager">Deputy General Manager</option>
-                    <option value="Manager">Sr. Manager</option>
-                    <option value="Manager">Manager</option>
-                </select>
-                
-
-            </div>
-
-            <div class="fieldgroup">
-                    <label for="">Gender</label>
-                
-                    <div class="gender">
-                        <input type="radio" name="" id="" checked> Male
-                        <input type="radio" name="" id=""> Female
-                        <input type="radio" name="" id=""> others
-                    </div>
-            </div>
-
-            <div class="fieldgroup">
-                <label for="">Skills</label>
-                    <div class="skills">
-                        <input type="checkbox"> HTML
-                        <input type="checkbox"> CSS
-                        <input type="checkbox"> Java
-                    </div>
-            </div>
-            <div class="fieldgroup">
-                <label for="">Date of Birth</label>
-                <input type="date" name="" id="">
-            </div>
-
-            <div class="fieldgroup">
-
-                <label for="">Phone Number</label>
-                <input type="number" name="" id="">
-            </div>
-            <div class="fieldgroup">
-                <label for=""> Upload Your CV</label>
-                <input type="file" name="" id="">
-            </div>  
-            
-            <input type="submit" value="submit">
+          <input type="text" name="" id="" placeholder="Address " />
         </div>
 
-        <!-- form-end -->
-       
+        <div class="fieldgroup">
+          <label for="">Position</label>
+          <select name="" id="">
+            <option value="Manager">General Manager</option>
+            <option value="Manager">Deputy General Manager</option>
+            <option value="Manager">Sr. Manager</option>
+            <option value="Manager">Manager</option>
+          </select>
+        </div>
+
+        <div class="fieldgroup">
+          <label for="">Gender</label>
+
+          <div class="gender">
+            <input type="radio" name="" id="" checked /> Male
+            <input type="radio" name="" id="" /> Female
+            <input type="radio" name="" id="" /> others
+          </div>
+        </div>
+
+        <div class="fieldgroup">
+          <label for="">Skills</label>
+          <div class="skills">
+            <input type="checkbox" /> HTML <input type="checkbox" /> CSS
+            <input type="checkbox" /> Java
+          </div>
+        </div>
+        <div class="fieldgroup">
+          <label for="">Date of Birth</label>
+          <input type="date" name="" id="" />
+        </div>
+
+        <div class="fieldgroup">
+          <label for="">Phone Number</label>
+          <input type="number" name="" id="" />
+        </div>
+        <div class="fieldgroup">
+          <label for=""> Upload Your CV</label>
+          <input type="file" name="" id="" />
+        </div>
+
+        <input type="submit" value="submit" />
+      </div>
+
+      <!-- form-end -->
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script src="js/jquery.flexslider.js"></script>
     <script src="js/index.js"></script>
-    
-</body>
+  </body>
 </html>
